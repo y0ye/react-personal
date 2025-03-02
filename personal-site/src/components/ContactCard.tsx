@@ -22,7 +22,7 @@ export default function ContactCard() {
                   <a href='mailto:bennettoppenheimer@gmail.com'>
                     <li>Email</li>
                   </a>
-                  <a href='./src/documents/resume-fin.pdf'>
+                  <a href='https://personal-site-react.s3.us-east-1.amazonaws.com/resume-fin.pdf'>
                     <li>Resume</li>
                   </a> 
                   <a href='tel:7138518614'>
