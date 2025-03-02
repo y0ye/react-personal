@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'RST-Thermal';
+    src: url('font/RST\ Thermal\ VF\ Regular.ttf') format('truetype');
+    font-weight: 900;
+}
+
+body{
+    background-color:#0d1321;
+    justify-content: center;
+}
+
+.site{
+    width:100%;
+    height: 100%;
+    background-color:#0d1321;
+}
+
+.cardintro{
+    margin: auto;
+    width:100%;
+    height: 100%;
+    
+}
+
+.nameheader{
+    margin:auto;
+    min-height: 40rem;
+    min-width: 60rem;
+    width:70rem;
+    color: #f0ebd8;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    background-color: #1d2d44;
+    border-radius: 2rem;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(17.1px);
+    -webkit-backdrop-filter: blur(17.1px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+
+    .bigimg{
+        max-width: 20rem;
+        height: auto;
+        position: absolute;
+        right:2rem;
+        top:10rem;
+        border-radius: 10rem;
+        border-style:solid;
+        border-color: #f0ebd8;
+        background-color:white;
+    }
+}
+
+.stack{
+    width:6rem;
+    max-height: 6rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.greeting{
+    margin-left: 4rem;
+    font-size: 2rem;
+    font-family: RST-Thermal;
+}
+.name{
+    font-size: 4.5rem;
+    font-family: RST-Thermal;
+    letter-spacing: 1px;
+    margin-left: 4rem;
+    img{
+        transition: transform 0.05s ease-in-out;
+    }
+    img:hover{
+        transform: scale(1.2);
+    }
+}
+.whoami{
+    font-size: 2rem;
+    font-family: RST-Thermal;
+    margin-left: 4rem;
+}
+
+.cardstack {
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center';
+    height: '100vh';
+}
+
+.cardsContainer {
+    position: 'relative';
+    width: '100%';
+    height: '60vh';
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center';
+}
+
+.card {
+    position: absolute;
+    width: 60%;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.activeCard {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    z-index: 3;
+}
+
+.inactiveCard {
+    transform: translate(-50%, -50%) scale(0.95);
+    opacity: 0.7;
+    z-index: 2;
+}
+
+.projectname{
+    font-size: 4.5rem;
+    font-family: RST-Thermal;
+    letter-spacing: 1px;
+    margin-left: 4rem;
+}
+
+.projectdescription{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-family: RST-Thermal;
+    margin-left: 4rem;
+}
+
+.projectimg{
+    max-width: 7rem;
+    height: auto;
+    position: absolute;
+    left:28rem;
+    top:5rem;
+    border-radius: 10rem;
+    border-style:solid;
+    border-color: #f0ebd8;
+    background-color:white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.projectimg:hover{
+    transform: scale(1.1);
+}
+
+.techstack{
+    margin-left: 5rem;
+    img{
+        transition: transform 0.05s ease-in-out;
+        max-width: 4rem;
+    }
+    img:hover{
+        transform: scale(1.2);
+    }
+}
+
+.tip{
+    font-size: 1rem;
+    font-family: RST-Thermal;
+    position: absolute;
+    bottom: 1rem;
+    right:1rem;
+}
+
+a{
+    text-decoration: none;
+    color:#f0ebd8;
+}
+
+.contact{
+    list-style: none;
+    display: flex;
+    gap: 15rem;
+    position: absolute;
+    bottom: 2rem;
+    left:15rem;
+    padding:0;
+}
