@@ -15,16 +15,16 @@ export default function CatPostingCard() {
                 </ul>
         </span>
         <span className={classes.techstack}>
-            <img className = {classes.stack} src="/imgs/postgresql.png"></img>
-            <img className = {classes.stack} src="/imgs/express.png"></img>
-            <img className = {classes.stack} src="/imgs/react.png"></img>
-            <img className = {classes.stack} src="/imgs/nodejs.png"></img>
-            <img className = {classes.stack} src="/imgs/typescript.png"></img>
-            <img className = {classes.stack} src="/imgs/css.jpg"></img>
-            <img className = {classes.stack} src="/imgs/aws.png"></img>
+            <img className = {classes.stack} src="https://personal-site-react.s3.us-east-1.amazonaws.com/imgs/postgresql.png"></img>
+            <img className = {classes.stack} src="https://personal-site-react.s3.us-east-1.amazonaws.com/imgs/express.png"></img>
+            <img className = {classes.stack} src="https://personal-site-react.s3.us-east-1.amazonaws.com/imgs/react.png"></img>
+            <img className = {classes.stack} src="https://personal-site-react.s3.us-east-1.amazonaws.com/imgs/nodejs.png"></img>
+            <img className = {classes.stack} src="https://personal-site-react.s3.us-east-1.amazonaws.com/imgs/typescript.png"></img>
+            <img className = {classes.stack} src="https://personal-site-react.s3.us-east-1.amazonaws.com/imgs/css.jpg"></img>
+            <img className = {classes.stack} src="https://personal-site-react.s3.us-east-1.amazonaws.com/imgs/aws.png"></img>
         </span>
           <a href="https://github.com/y0ye">
-            <img className={classes.projectimg} src='/imgs/cat (1).png'></img>
+            <img className={classes.projectimg} src='https://personal-site-react.s3.us-east-1.amazonaws.com/imgs/cat (1).png'></img>
           </a>
         </div>
       </div>

@@ -16,16 +16,16 @@ export default function CapstoneCard() {
                 </ul>
         </span>
         <span className={classes.techstack}>
-            <img className = {classes.stack} src="/imgs/express.png"></img>
-            <img className = {classes.stack} src="/imgs/react.png"></img>
-            <img className = {classes.stack} src="/imgs/nodejs.png"></img>
-            <img className = {classes.stack} src="/imgs/typescript.png"></img>
-            <img className = {classes.stack} src="/imgs/google_cloud.png"></img>
-            <img className = {classes.stack} src="/imgs/gpt.png"></img>
+            <img className = {classes.stack} src="https://personal-site-react.s3.us-east-1.amazonaws.com/imgs/express.png"></img>
+            <img className = {classes.stack} src="https://personal-site-react.s3.us-east-1.amazonaws.com/imgs/react.png"></img>
+            <img className = {classes.stack} src="https://personal-site-react.s3.us-east-1.amazonaws.com/imgs/nodejs.png"></img>
+            <img className = {classes.stack} src="https://personal-site-react.s3.us-east-1.amazonaws.com/imgs/typescript.png"></img>
+            <img className = {classes.stack} src="https://personal-site-react.s3.us-east-1.amazonaws.com/imgs/google_cloud.png"></img>
+            <img className = {classes.stack} src="https://personal-site-react.s3.us-east-1.amazonaws.com/imgs/gpt.png"></img>
 
         </span>
           <a href="https://argodata.com/">
-            <img className={classes.projectimg} src='/imgs/argo.png'></img>
+            <img className={classes.projectimg} src='https://personal-site-react.s3.us-east-1.amazonaws.com/imgs/argo.png'></img>
           </a>
         </div>
       </div>
