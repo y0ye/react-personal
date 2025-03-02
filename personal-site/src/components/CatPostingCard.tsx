@@ -15,16 +15,16 @@ export default function CatPostingCard() {
                 </ul>
         </span>
         <span className={classes.techstack}>
-            <img className = {classes.stack} src="./src/styles/imgs/postgresql.png"></img>
-            <img className = {classes.stack} src="./src/styles/imgs/express.png"></img>
-            <img className = {classes.stack} src="./src/styles/imgs/react.png"></img>
-            <img className = {classes.stack} src="./src/styles/imgs/nodejs.png"></img>
-            <img className = {classes.stack} src="./src/styles/imgs/typescript.png"></img>
-            <img className = {classes.stack} src="./src/styles/imgs/css.jpg"></img>
-            <img className = {classes.stack} src="./src/styles/imgs/aws.png"></img>
+            <img className = {classes.stack} src="/imgs/postgresql.png"></img>
+            <img className = {classes.stack} src="/imgs/express.png"></img>
+            <img className = {classes.stack} src="/imgs/react.png"></img>
+            <img className = {classes.stack} src="/imgs/nodejs.png"></img>
+            <img className = {classes.stack} src="/imgs/typescript.png"></img>
+            <img className = {classes.stack} src="/imgs/css.jpg"></img>
+            <img className = {classes.stack} src="/imgs/aws.png"></img>
         </span>
           <a href="https://github.com/y0ye">
-            <img className={classes.projectimg} src='./src/styles/imgs/cat (1).png'></img>
+            <img className={classes.projectimg} src='/imgs/cat (1).png'></img>
           </a>
         </div>
       </div>

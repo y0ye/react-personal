@@ -15,7 +15,7 @@ export default function ContactCard() {
                 </ul>
         </span>
 
-        <img className={classes.bigimg} src='./src/styles/imgs/me-volcano (2).png'></img> 
+        <img className={classes.bigimg} src='/imgs/me-volcano (2).png'></img> 
         </div>
         <span>
                 <ul className={classes.contact}>

@@ -7,7 +7,7 @@ export default function GreetingsCard() {
           <span className={classes.greeting}>I'm a Software Engineering student at:</span>
           <span className={classes.name}>UT Dallas 💫</span>
           <span className={classes.whoami}>Graduating May 2025 🎓</span>
-          <img className={classes.bigimg} src='./src/styles/imgs/UT_Dallas_Monogram_-_2_color_(Updated).jpg'></img> 
+          <img className={classes.bigimg} src='/imgs/UT_Dallas_Monogram_-_2_color_(Updated).jpg'></img> 
         </div>
       </div>
   )

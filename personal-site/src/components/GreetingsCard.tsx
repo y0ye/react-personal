@@ -9,7 +9,7 @@ export default function GreetingsCard() {
           <span className={classes.whoami}>Frontend & Full-Stack Software Engineer 👨🏻‍💻</span>
           <span className={classes.tip}>Swipe Left!</span>
           <a href="https://www.linkedin.com/in/bennett-oppenheimer-b26076230/">
-            <img className={classes.bigimg} src='./src/styles/imgs/image1.png'></img>
+            <img className={classes.bigimg} src='/imgs/image1.png'></img>
           </a>
         </div>
       </div>

@@ -16,16 +16,16 @@ export default function CapstoneCard() {
                 </ul>
         </span>
         <span className={classes.techstack}>
-            <img className = {classes.stack} src="./src/styles/imgs/express.png"></img>
-            <img className = {classes.stack} src="./src/styles/imgs/react.png"></img>
-            <img className = {classes.stack} src="./src/styles/imgs/nodejs.png"></img>
-            <img className = {classes.stack} src="./src/styles/imgs/typescript.png"></img>
-            <img className = {classes.stack} src="./src/styles/imgs/google_cloud.png"></img>
-            <img className = {classes.stack} src="./src/styles/imgs/gpt.png"></img>
+            <img className = {classes.stack} src="/imgs/express.png"></img>
+            <img className = {classes.stack} src="/imgs/react.png"></img>
+            <img className = {classes.stack} src="/imgs/nodejs.png"></img>
+            <img className = {classes.stack} src="/imgs/typescript.png"></img>
+            <img className = {classes.stack} src="/imgs/google_cloud.png"></img>
+            <img className = {classes.stack} src="/imgs/gpt.png"></img>
 
         </span>
           <a href="https://argodata.com/">
-            <img className={classes.projectimg} src='./src/styles/imgs/argo.png'></img>
+            <img className={classes.projectimg} src='/imgs/argo.png'></img>
           </a>
         </div>
       </div>
